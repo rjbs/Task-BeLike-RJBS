@@ -8,43 +8,48 @@ author      ('Ricardo SIGNES <rjbs@cpan.org>');
 license     ('perl');
 version_from('lib/Task/BeLike/RJBS.pm');
 
-requires('App::Ack',                       '1.76'  );
-requires('App::Addex',                     '0.013' );
-requires('App::Addex::AddressBook::Apple', '0.006' );
-requires('App::Cmd',                       '0.012' );
-requires('CPAN::Mini',                     '0.566' );
-requires('CPAN::Reporter',                 '1.0602');
-requires('Config::INI',                    '0.011' );
-requires('Data::GUID',                     '0.043' );
-requires('DateTime',                       '0.41'  );
-requires('Email::Filter',                  '1.031' );
-requires('Email::MIME',                    '1.861' );
-requires('Exception::Class',               '1.23'  );
-requires('File::Next',                     '1.02'  );
-requires('File::Temp',                     '0.20'  );
-requires('File::Tempdir',                  '0.02'  );
-requires('Getopt::Long::Descriptive',      '0.06'  );
-requires('HTML::Element',                  '3.23'  );
-requires('LWP',                            '5.808' );
-requires('List::MoreUtils',                '0.21'  );
-requires('Mac::Glue',                      '1.30'  );
-requires('Mixin::ExtraFields',             '0.007' );
-requires('Mixin::ExtraFields::Param',      '0.011' );
-requires('Module::Install',                '0.68'  );
-requires('Moose',                          '0.35'  );
-requires('MooseX::POE',                    '0.07'  );
-requires('MooseX::Singleton',              '0.05'  );
-requires('PPI',                            '1.201' );
-requires('Params::Util',                   '0.31'  );
-requires('Perl::Critic',                   '1.080' );
-requires('Perl::Critic::Lax',              '0.007' );
-requires('Scalar::Util',                   '1.19'  );
-requires('Slash::Client::Journal',         '0.01'  );
-requires('Sub::Exporter',                  '0.978' );
-requires('Text::Markdown',                 '1.0.5' );
-requires('Tie::CPHash',                    '1.03'  );
-requires('YAML::Syck',                     '1.01'  );
-requires('pip',                            '0.13'  );
+  requires('App::Ack',                       '1.76'  ); # 5.10 fix
+                                                        # also gets File::Next
+  requires('App::Cmd',                       '0.010' ); # App::Cmd::Simple
+                                                        # Getopt::Long::Desc
+  requires('CPAN',                           '1.87'  ); # homedir, sudo
+  requires('CPAN::Mini',                     '0.563' ); # bugfixes
+  requires('CPAN::Reporter',                 undef   );
+  requires('Config::INI',                    '0.011' ); # bugfixes
+  requires('Data::GUID',                     '0.043' ); # debian--
+  requires('DateTime',                       '0.41'  );
+  requires('Email::Filter',                  '1.02'  ); # bugfixes
+  requires('Email::MIME',                    '1.861' ); # ensures Simple 2
+  requires('Exception::Class',               '1.23'  ); # ->caught()
+  requires('HTML::Element',                  '3.22'  ); # XML escaping
+  requires('List::MoreUtils',                '0.21'  ); # bugfixes, part()
+  requires('Mixin::ExtraFields',             '0.005' ); # undef for id
+  requires('Mixin::ExtraFields::Param',      '0.011' );
+  requires('Module::CoreList',               '2.13'  ); # 5.10
+  requires('Module::Install',                '0.68'  ); # META.yml author seq
+  requires('Moose',                          '0.35'  );
+  requires('MooseX::POE',                    '0.07'  );
+  requires('MooseX::Singleton',              '0.05'  );
+  requires('POE::Component::IRC',            undef   );
+  requires('PPI',                            '1.201' );
+  requires('Params::Util',                   '0.23'  ); # _INVOCANT fixes
+  requires('Perl::Critic',                   '1.080' );
+  requires('Perl::Critic::Lax',              '0.007' );
+  requires('Rubric',                         '0.142' );
+  requires('Scalar::Util',                   '1.18'  ); # bugfixes
+  requires('Slash::Client::Journal',         undef   );
+  requires('Sub::Exporter',                  '0.978' ); # installer/generator
+  requires('Text::Markdown',                 '1.0.2' ); 
+  requires('Tie::CPHash',                    '1.02'  ); # SCALAR method
+  requires('YAML::Syck',                     '1.01'  ); # 5.11 support
+  requires('pip',                            '0.12'  ); # pip http://...
+
+if ($^O eq 'darwin') {
+  # Mac Only
+  requires('App::Addex',                     '0.013' );
+  requires('App::Addex::AddressBook::Apple', '0.006' );
+  requires('Mac::Glue',                      '1.30'  );
+}
 
 auto_install;
 WriteAll;
