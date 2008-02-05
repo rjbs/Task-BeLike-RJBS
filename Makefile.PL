@@ -3,10 +3,10 @@ use warnings;
 
 use inc::Module::Install;
 
-name        ('Task::RJBS');
+name        ('Task-BeLike-RJBS');
 author      ('Ricardo SIGNES <rjbs@cpan.org>');
 license     ('perl');
-version_from('lib/Task/RJBS.pm');
+version_from('lib/Task/BeLike/RJBS.pm');
 
 requires('App::Ack',                       '1.76'  );
 requires('App::Addex',                     '0.013' );
