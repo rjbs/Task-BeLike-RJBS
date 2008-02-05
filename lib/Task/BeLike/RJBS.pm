@@ -42,6 +42,7 @@ Here are the contents:
   requires('Params::Util',                   '0.23'  ); # _INVOCANT fixes
   requires('Perl::Critic',                   '1.080' );
   requires('Perl::Critic::Lax',              '0.007' );
+  requires('Perl::Tidy',                     20071205); # perl 5.10
   requires('Rubric',                         '0.142' );
   requires('Scalar::Util',                   '1.18'  ); # bugfixes
   requires('Slash::Client::Journal',         undef   );
