@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 package Task::BeLike::RJBS;
-our $VERSION = 1.000;
+our $VERSION = '1.000';
 
 =head1 NAME
 
