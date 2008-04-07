@@ -7,6 +7,7 @@ name        ('Task-BeLike-RJBS');
 author      ('Ricardo SIGNES <rjbs@cpan.org>');
 license     ('perl');
 version_from('lib/Task/BeLike/RJBS.pm');
+author_tests('xt');
 
   requires('App::Ack',                       '1.76'  ); # 5.10 fix
                                                         # also gets File::Next
@@ -51,5 +52,4 @@ if ($^O eq 'darwin') {
   requires('Mac::Glue',                      '1.30'  );
 }
 
-auto_install;
 WriteAll;
