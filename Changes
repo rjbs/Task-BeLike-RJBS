@@ -1,5 +1,8 @@
 Revision history for Task-BeLike-RJBS
 
+1.002     2008-04-??
+          require 5.008 in Makefile.PL
+
 1.001     2008-04-07
           add version number
           add changelog

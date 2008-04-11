@@ -1,3 +1,4 @@
+use 5.008; # why would I use anything less?
 use strict;
 use warnings;
 
@@ -36,7 +37,6 @@ author_tests('xt');
   requires('Params::Util',                   '0.23'  ); # _INVOCANT fixes
   requires('Perl::Critic',                   '1.080' );
   requires('Perl::Critic::Lax',              '0.007' );
-  requires('Rubric',                         '0.142' );
   requires('Scalar::Util',                   '1.18'  ); # bugfixes
   requires('Slash::Client::Journal',         undef   );
   requires('Sub::Exporter',                  '0.978' ); # installer/generator
