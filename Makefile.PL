@@ -1,3 +1,6 @@
+# You don't need to smoke my bundle, but thanks! -- rjbs, 2008-04-12
+exit 0 if $ENV{AUTOMATED_TESTING};
+
 use 5.008; # why would I use anything less?
 use strict;
 use warnings;
@@ -5,10 +8,8 @@ use warnings;
 use inc::Module::Install;
 
 name        ('Task-BeLike-RJBS');
-author      ('Ricardo SIGNES <rjbs@cpan.org>');
-license     ('perl');
-version_from('lib/Task/BeLike/RJBS.pm');
-author_tests('xt');
+all_from    ('lib/Task/BeLike/RJBS.pm');
+extra_tests;
 
   requires('App::Ack',                       '1.76'  ); # 5.10 fix
                                                         # also gets File::Next
@@ -37,6 +38,7 @@ author_tests('xt');
   requires('Params::Util',                   '0.23'  ); # _INVOCANT fixes
   requires('Perl::Critic',                   '1.080' );
   requires('Perl::Critic::Lax',              '0.007' );
+# requires('SOAP::Lite',                     '0.70'  ); # works, unindexed!
   requires('Scalar::Util',                   '1.18'  ); # bugfixes
   requires('Slash::Client::Journal',         undef   );
   requires('Sub::Exporter',                  '0.978' ); # installer/generator

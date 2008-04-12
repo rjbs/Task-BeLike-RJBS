@@ -1,6 +1,8 @@
 Revision history for Task-BeLike-RJBS
 
-1.002     2008-04-??
+1.002     2008-04-12
+          tell smokers to skip this
+          drop Rubric, which is huge and rarely needed
           require 5.008 in Makefile.PL
 
 1.001     2008-04-07
