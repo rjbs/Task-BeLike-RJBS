@@ -2,7 +2,7 @@ use 5.008;
 use strict;
 use warnings;
 package Task::BeLike::RJBS;
-our $VERSION = '1.002';
+our $VERSION = '1.003';
 
 =head1 NAME
 
@@ -19,10 +19,13 @@ Here are the contents:
                                                         # also gets File::Next
   requires('App::Cmd',                       '0.010' ); # App::Cmd::Simple
                                                         # Getopt::Long::Desc
+  requires('App::Smarkmail',                 undef   );
+  requires('App::Whiff',                     undef   );
   requires('CPAN',                           '1.87'  ); # homedir, sudo
   requires('CPAN::Mini',                     '0.563' ); # bugfixes
   requires('CPAN::Reporter',                 undef   );
   requires('Config::INI',                    '0.011' ); # bugfixes
+  requires('DBD::SQLite',                    undef   );
   requires('Data::GUID',                     '0.043' ); # debian--
   requires('DateTime',                       '0.41'  );
   requires('Email::Filter',                  '1.02'  ); # bugfixes
@@ -30,6 +33,7 @@ Here are the contents:
   requires('Exception::Class',               '1.23'  ); # ->caught()
   requires('HTML::Element',                  '3.22'  ); # XML escaping
   requires('List::MoreUtils',                '0.21'  ); # bugfixes, part()
+  requires('Log::Dispatchouli',              undef   );
   requires('Mixin::ExtraFields',             '0.005' ); # undef for id
   requires('Mixin::ExtraFields::Param',      '0.011' );
   requires('Module::CoreList',               '2.13'  ); # 5.10
@@ -42,13 +46,10 @@ Here are the contents:
   requires('Params::Util',                   '0.23'  ); # _INVOCANT fixes
   requires('Perl::Critic',                   '1.080' );
   requires('Perl::Critic::Lax',              '0.007' );
-  # requires('SOAP::Lite',                   '0.70'  ); # works, unindexed!
   requires('Scalar::Util',                   '1.18'  ); # bugfixes
-  requires('Slash::Client::Journal',         undef   );
   requires('Sub::Exporter',                  '0.978' ); # installer/generator
   requires('Text::Markdown',                 '1.0.2' ); 
-  requires('Tie::CPHash',                    '1.02'  ); # SCALAR method
-  requires('YAML::Syck',                     '1.01'  ); # 5.11 support
+  requires('YAML::XS',                       undef   );
   requires('pip',                            '0.12'  ); # pip http://...
 
   # Mac Only
