@@ -15,6 +15,7 @@ extra_tests;
                                                         # also gets File::Next
   requires('App::Cmd',                       '0.010' ); # App::Cmd::Simple
                                                         # Getopt::Long::Desc
+  requires('App::Nopaste',                   '0.08'  ); # gist with token auth
   requires('App::Smarkmail',                 undef   );
   requires('App::Whiff',                     undef   );
   requires('CPAN',                           '1.87'  ); # homedir, sudo
