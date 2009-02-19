@@ -2,7 +2,7 @@ use 5.008;
 use strict;
 use warnings;
 package Task::BeLike::RJBS;
-our $VERSION = '1.003';
+our $VERSION = '20090219';
 
 =head1 NAME
 
@@ -29,6 +29,8 @@ Here are the contents:
   requires('DBD::SQLite',                    undef   );
   requires('Data::GUID',                     '0.043' ); # debian--
   requires('DateTime',                       '0.41'  );
+  requires('Dist::Zilla',                    '1.004' ); # no podweaver
+  requires('Dist::Zilla::Plugin::PodWeaver', undef   );
   requires('Email::Filter',                  '1.02'  ); # bugfixes
   requires('Email::MIME',                    '1.861' ); # ensures Simple 2
   requires('Exception::Class',               '1.23'  ); # ->caught()
