@@ -25,6 +25,7 @@ Here are the contents:
   requires('CPAN',                           '1.87'  ); # homedir, sudo
   requires('CPAN::Mini',                     '0.563' ); # bugfixes
   requires('CPAN::Reporter',                 undef   );
+  requires('CPAN::Uploader',                 undef   );
   requires('Config::INI',                    '0.011' ); # bugfixes
   requires('DBD::SQLite',                    undef   );
   requires('Data::GUID',                     '0.043' ); # debian--
