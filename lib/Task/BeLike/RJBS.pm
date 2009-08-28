@@ -17,7 +17,7 @@ Here are the contents:
 
   requires('App::Ack',                       '1.76'  ); # 5.10 fix
                                                         # also gets File::Next
-  requires('App::Cmd',                       '0.010' ); # App::Cmd::Simple
+  requires('App::Cmd',                       '0.300' ); # App::Cmd::Simple
                                                         # Getopt::Long::Desc
   requires('App::Nopaste',                   '0.08'  ); # gist with token auth
   requires('App::Whiff',                     undef   );
@@ -41,7 +41,7 @@ Here are the contents:
   requires('Mixin::ExtraFields::Param',      '0.011' );
   requires('Module::CoreList',               '2.13'  ); # 5.10
   requires('Module::Install',                '0.74'  ); # bugfixes
-  requires('Moose',                          '0.65'  ); # attr meets requires
+  requires('Moose',                          '0.74'  ); # duck type
   requires('MooseX::POE',                    '0.200' ); # compat
   requires('PPI',                            '1.201' );
   requires('Params::Util',                   '0.23'  ); # _INVOCANT fixes

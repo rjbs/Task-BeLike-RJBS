@@ -37,7 +37,7 @@ extra_tests;
   requires('Mixin::ExtraFields::Param',      '0.011' );
   requires('Module::CoreList',               '2.13'  ); # 5.10
   requires('Module::Install',                '0.74'  ); # bugfixes
-  requires('Moose',                          '0.65'  ); # attr meets requires
+  requires('Moose',                          '0.74'  ); # duck type
   requires('MooseX::POE',                    '0.200' ); # compat
   requires('PPI',                            '1.201' );
   requires('Params::Util',                   '0.23'  ); # _INVOCANT fixes
