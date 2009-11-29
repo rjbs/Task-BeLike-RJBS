@@ -1,4 +1,7 @@
-Revision history for Task-BeLike-RJBS
+Revision history for {{$dist->name}}
+
+{{$NEXT}}
+          use TaskWeaver to build bundle
 
 20090219  2009-02-19
           dzil
