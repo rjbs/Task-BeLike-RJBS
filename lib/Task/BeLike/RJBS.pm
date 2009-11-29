@@ -9,83 +9,158 @@ package Task::BeLike::RJBS;
 This L<Task|Task> module installs the modules that I, RJBS, really need to get
 work done.
 
+=pkgroup Everything
+
 =pkg App::Ack 1.76
 
 ); # 5.10 fix
 # also gets File::Next
 
-=pkg App::Cmd                       0.300 ); # App::Cmd::Simple
+=pkg App::Cmd                       0.300
+
+); # App::Cmd::Simple
+
 # Getopt::Long::Desc
 
-=pkg App::Nopaste                   0.08  ); # gist with token auth
+=pkg App::Nopaste                   0.08
 
-=pkg App::Whiff                     undef   );
+); # gist with token auth
 
-=pkg CPAN                           1.87  ); # homedir, sudo
+=pkg App::Whiff                     undef
 
-=pkg CPAN::Mini                     0.563 ); # bugfixes
+);
 
-=pkg CPAN::Reporter                 undef   );
+=pkg CPAN                           1.87
 
-=pkg CPAN::Uploader                 undef   );
+); # homedir, sudo
 
-=pkg Config::INI                    0.011 ); # bugfixes
+=pkg CPAN::Mini                     0.563
 
-=pkg DBD::SQLite                    undef   );
+); # bugfixes
 
-=pkg Data::GUID                     0.043 ); # debian--
+=pkg CPAN::Reporter                 undef
 
-=pkg DateTime                       0.41  );
+  );
 
-=pkg Dist::Zilla                    1.007 ); # metaresources
+=pkg CPAN::Uploader                 undef
 
-=pkg Dist::Zilla::Plugin::PodPurler undef   );
+  );
 
-=pkg Email::Filter                  1.02  ); # bugfixes
+=pkg Config::INI                    0.011
 
-=pkg Email::MIME                    1.861 ); # ensures Simple 2
+); # bugfixes
 
-=pkg Exception::Class               1.23  ); # ->caught()
+=pkg DBD::SQLite                    undef
 
-=pkg HTML::Element                  3.22  ); # XML escaping
+  );
 
-=pkg List::MoreUtils                0.21  ); # bugfixes, part()
+=pkg Data::GUID                     0.043
 
-=pkg Log::Dispatchouli              undef   );
+); # debian--
 
-=pkg Mixin::ExtraFields             0.005 ); # undef for id
+=pkg DateTime                       0.41 
 
-=pkg Mixin::ExtraFields::Param      0.011 );
+);
 
-=pkg Module::CoreList               2.13  ); # 5.10
+=pkg Dist::Zilla                    1.007
 
-=pkg Module::Install                0.74  ); # bugfixes
+); # metaresources
 
-=pkg Moose                          0.74  ); # duck type
+=pkg Dist::Zilla::Plugin::PodPurler undef
 
-=pkg MooseX::POE                    0.200 ); # compat
+  );
 
-=pkg PPI                            1.201 );
+=pkg Email::Filter                  1.02 
 
-=pkg Params::Util                   0.23  ); # _INVOCANT fixes
+); # bugfixes
 
-=pkg Perl::Critic                   1.080 );
+=pkg Email::MIME                    1.861
 
-=pkg Perl::Critic::Lax              0.007 );
+); # ensures Simple 2
 
-=pkg Perl::Tidy                      20071205); # 5.10
+=pkg Exception::Class               1.23 
 
-=pkg Pod::Eventual                  0.005 ); # bugfixes; Simple
+); # ->caught()
 
-=pkg Scalar::Util                   1.18  ); # bugfixes
+=pkg HTML::Element                  3.22 
 
-=pkg Sub::Exporter                  0.978 ); # installer/generator
+); # XML escaping
 
-=pkg Text::Markdown                 1.0.24); # trust_list_start
+=pkg List::MoreUtils                0.21 
 
-=pkg YAML::XS                       undef   );
+); # bugfixes, part()
 
-=pkg pip                            0.12  ); # pip http://...
+=pkg Log::Dispatchouli              undef
+
+  );
+
+=pkg Mixin::ExtraFields             0.005
+
+); # undef for id
+
+=pkg Mixin::ExtraFields::Param      0.011
+
+);
+
+=pkg Module::CoreList               2.13 
+
+); # 5.10
+
+=pkg Module::Install                0.74 
+
+); # bugfixes
+
+=pkg Moose                          0.74 
+
+); # duck type
+
+=pkg MooseX::POE                    0.200
+
+); # compat
+
+=pkg PPI                            1.201
+
+);
+
+=pkg Params::Util                   0.23 
+
+); # _INVOCANT fixes
+
+=pkg Perl::Critic                   1.080
+
+);
+
+=pkg Perl::Critic::Lax              0.007
+
+);
+
+=pkg Perl::Tidy                      20071205
+
+); # 5.10
+
+=pkg Pod::Eventual                  0.005
+
+); # bugfixes; Simple
+
+=pkg Scalar::Util                   1.18  
+
+; # bugfixes
+
+=pkg Sub::Exporter                  0.978 
+
+; # installer/generator
+
+=pkg Text::Markdown                 1.0.24
+
+; # trust_list_start
+
+=pkg YAML::XS                       undef 
+
+ );
+
+=pkg pip                            0.12  
+
+; # pip http://...
 
 =head1 PENDING INCLUSION:
 
