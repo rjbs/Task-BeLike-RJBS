@@ -9,158 +9,85 @@ package Task::BeLike::RJBS;
 This L<Task|Task> module installs the modules that I, RJBS, really need to get
 work done.
 
-=pkgroup Everything
+=pkgroup Useful Command-Line Tools
 
-=pkg App::Ack 1.76
+=pkg App::Ack 1.76 fixes for perl 5.10
 
-); # 5.10 fix
-# also gets File::Next
+App::Ack also gets us File::Next!
 
-=pkg App::Cmd                       0.300
+=pkg App::Nopaste 0.17 Gist support via Gist API
 
-); # App::Cmd::Simple
+=pkg App::Whiff
 
-# Getopt::Long::Desc
+=pkgroup everything else
 
-=pkg App::Nopaste                   0.08
+=pkg App::Cmd 0.303 App::Cmd::Simple; compat with Getopt::Long::Descripive 0.081
 
-); # gist with token auth
+App::Cmd also gets us Getopt::Long::Descriptive.
 
-=pkg App::Whiff                     undef
+=pkg CPAN 1.87 support for sudo on install
 
-);
+=pkg CPAN::Mini 0.563
 
-=pkg CPAN                           1.87
+=pkg CPAN::Reporter
 
-); # homedir, sudo
+=pkg CPAN::Uploader
 
-=pkg CPAN::Mini                     0.563
+=pkg Config::INI 0.011
 
-); # bugfixes
+=pkg DBD::SQLite
 
-=pkg CPAN::Reporter                 undef
+=pkg Data::GUID 0.044 requires a new enough Data::UUID to work around Debian
 
-  );
+=pkg DateTime 0.51 provides CLDR support with fewest known bugs
 
-=pkg CPAN::Uploader                 undef
+=pkg Dist::Zilla 1.093290 newest available
 
-  );
+=pkg Dist::Zilla::PluginBundle::RJBS 0.093200 newest available
 
-=pkg Config::INI                    0.011
+=pkg Email::Filter 1.02 
 
-); # bugfixes
+=pkg Email::MIME 1.900 merged in Creator and Modifier modules
 
-=pkg DBD::SQLite                    undef
+=pkg Exception::Class 1.23 provides ->caught
 
-  );
+=pkg HTML::Element 3.22 has proper XML escaping
 
-=pkg Data::GUID                     0.043
+=pkg List::MoreUtils 0.21 includes part()
 
-); # debian--
+=pkg Log::Dispatchouli
 
-=pkg DateTime                       0.41 
+=pkg Mixin::ExtraFields 0.005 allows undef for id
 
-);
+=pkg Mixin::ExtraFields::Param 0.011
 
-=pkg Dist::Zilla                    1.007
+=pkg Module::CoreList 2.18 has info on 5.10.1
 
-); # metaresources
+=pkg Module::Install 0.74
 
-=pkg Dist::Zilla::Plugin::PodPurler undef
+=pkg Moose 0.74 supports duck_type
 
-  );
+=pkg PPI 1.201
 
-=pkg Email::Filter                  1.02 
+=pkg Params::Util 0.23 has working _INVOCANT
 
-); # bugfixes
+=pkg Perl::Critic 1.080
 
-=pkg Email::MIME                    1.861
+=pkg Perl::Critic::Lax 0.007
 
-); # ensures Simple 2
+=pkg Perl::Tidy 20071205 supports 5.10
 
-=pkg Exception::Class               1.23 
+=pkg Pod::Weaver 3.093130 latest available
 
-); # ->caught()
+=pkg Scalar::Util 1.18
 
-=pkg HTML::Element                  3.22 
+=pkg Sub::Exporter 0.978 supports custom installer/generator
 
-); # XML escaping
+=pkg Text::Markdown 1.0.24 has trust_list_start
 
-=pkg List::MoreUtils                0.21 
+=pkg YAML::XS undef 
 
-); # bugfixes, part()
-
-=pkg Log::Dispatchouli              undef
-
-  );
-
-=pkg Mixin::ExtraFields             0.005
-
-); # undef for id
-
-=pkg Mixin::ExtraFields::Param      0.011
-
-);
-
-=pkg Module::CoreList               2.13 
-
-); # 5.10
-
-=pkg Module::Install                0.74 
-
-); # bugfixes
-
-=pkg Moose                          0.74 
-
-); # duck type
-
-=pkg MooseX::POE                    0.200
-
-); # compat
-
-=pkg PPI                            1.201
-
-);
-
-=pkg Params::Util                   0.23 
-
-); # _INVOCANT fixes
-
-=pkg Perl::Critic                   1.080
-
-);
-
-=pkg Perl::Critic::Lax              0.007
-
-);
-
-=pkg Perl::Tidy                      20071205
-
-); # 5.10
-
-=pkg Pod::Eventual                  0.005
-
-); # bugfixes; Simple
-
-=pkg Scalar::Util                   1.18  
-
-; # bugfixes
-
-=pkg Sub::Exporter                  0.978 
-
-; # installer/generator
-
-=pkg Text::Markdown                 1.0.24
-
-; # trust_list_start
-
-=pkg YAML::XS                       undef 
-
- );
-
-=pkg pip                            0.12  
-
-; # pip http://...
+=pkg pip 0.12 supports installing from http URIs
 
 =head1 PENDING INCLUSION:
 
