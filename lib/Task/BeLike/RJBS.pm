@@ -14,6 +14,9 @@ App::Ack also gets us File::Next!
 
 =pkg App::Whiff
 
+App::Whiff provides C<whiff>, which replaces C<which>, because C<which> is
+stupid.
+
 
 
 =pkgroup Tools for Working with the CPAN
@@ -84,6 +87,8 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkg HTML::Element 3.22 has proper XML escaping
 
+=pkg JSON 2.12 fixes unicode handling from ASCII JSON
+
 =pkg List::MoreUtils 0.21 includes part()
 
 =pkg Log::Dispatchouli
@@ -108,7 +113,7 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkg Text::Markdown 1.0.24 has trust_list_start
 
-=pkg YAML::XS undef 
+=pkg YAML::XS
 
 =head1 PENDING INCLUSION:
 
