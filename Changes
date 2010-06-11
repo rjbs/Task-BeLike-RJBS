@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+20100611.000 2010-06-11 16:11:21 America/New_York
              drop pip, Module::Install, YAML::XS
              add perl 5.10.0
              bump up some prereqs
