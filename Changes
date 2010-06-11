@@ -1,5 +1,10 @@
 Revision history for {{$dist->name}}
 
+{{$NEXT}}
+             drop pip, Module::Install, YAML::XS
+             add perl 5.10.0
+             bump up some prereqs
+
 20091203.000 2009-12-03
              taskweaver now provides tests
 

@@ -1,4 +1,4 @@
-use 5.008;
+use 5.10.0;
 use strict;
 use warnings;
 package Task::BeLike::RJBS;
@@ -10,7 +10,7 @@ package Task::BeLike::RJBS;
 
 App::Ack also gets us File::Next!
 
-=pkg App::Nopaste 0.17 Gist support via Gist API
+=pkg App::Nopaste 0.21 Gist support via Gist API
 
 =pkg App::Whiff
 
@@ -21,6 +21,8 @@ stupid.
 
 =pkgroup Tools for Working with the CPAN
 
+=pkg perl 5.10.0
+
 =pkg CPAN 1.87 support for sudo on install
 
 =pkg CPAN::Mini 0.563
@@ -29,19 +31,15 @@ stupid.
 
 =pkg CPAN::Uploader
 
-=pkg pip 0.12 supports installing from http URIs
-
 
 
 =pkgroup Tools for Building CPAN Distributions
 
-=pkg Dist::Zilla 1.093290 newest available
+=pkg Dist::Zilla 4 newest available
 
 =pkg Dist::Zilla::PluginBundle::RJBS 0.093200 newest available
 
-=pkg Module::CoreList 2.18 has info on 5.10.1
-
-=pkg Module::Install 0.74
+=pkg Module::CoreList 2.34 has info on 5.13.1
 
 =pkg Perl::Critic 1.080
 
@@ -97,30 +95,21 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkg Mixin::ExtraFields::Param 0.011
 
-=pkg Moose 0.74 supports duck_type
+=pkg Moose 0.94 has the big attribute overhaul
 
 =pkg Moose::Autobox 0.10 has "each" iterators
 
 =pkg namespace::autoclean
 
-=pkg PPI 1.201
+=pkg PPI 1.212 fixes parsing of package names with leading-digit parts
 
-=pkg Params::Util 0.23 has working _INVOCANT
+=pkg Params::Util 0.38 has fixes to _IDENTIFIER and _CLASS
 
 =pkg Scalar::Util 1.18
 
-=pkg Sub::Exporter 0.978 supports custom installer/generator
+=pkg Sub::Exporter 0.979 has the INIT collector
 
 =pkg Text::Markdown 1.0.24 has trust_list_start
-
-=pkg YAML::XS
-
-=head1 PENDING INCLUSION:
-
-  # Mac Only
-  requires('App::Addex',                     '0.013' );
-  requires('App::Addex::AddressBook::Apple', '0.006' );
-  requires('Mac::Glue',                      '1.30'  );
 
 =cut
 
