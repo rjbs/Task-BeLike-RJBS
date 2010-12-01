@@ -1,6 +1,19 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+             require perl 5.12.0
+
+             drop CPAN, CPAN::Reporter, CPAN::Uploader
+             add cpanminus and cpan-outdated
+
+             drop Perl::Critic
+
+             bump Log::Dispatchouli to 2
+
+             bump Moose to 1.19
+
+             replace Exception::Class with Throwable, Throwable::X, and
+             Try::Tiny
 
 20100611.000 2010-06-11 16:11:21 America/New_York
              drop pip, Module::Install, YAML::XS

@@ -1,12 +1,11 @@
-use 5.10.0;
-use strict;
+use 5.12.0;
 use warnings;
 package Task::BeLike::RJBS;
 # ABSTRACT: be more like RJBS -- use the modules he likes!
 
 =pkgroup Useful Command-Line Tools
 
-=pkg App::Ack 1.76 fixes for perl 5.10
+=pkg App::Ack 1.82 a working --pager
 
 App::Ack also gets us File::Next!
 
@@ -21,15 +20,13 @@ stupid.
 
 =pkgroup Tools for Working with the CPAN
 
-=pkg perl 5.10.0
+=pkg perl 5.12.0
 
-=pkg CPAN 1.87 support for sudo on install
+=pkg App::cpanminus 1.1002 it has --auto-cleanup
+
+=pkg App::cpanoutdated 0.12 it won't install old dists
 
 =pkg CPAN::Mini 0.563
-
-=pkg CPAN::Reporter
-
-=pkg CPAN::Uploader
 
 
 
@@ -37,23 +34,19 @@ stupid.
 
 =pkg Dist::Zilla 4 newest available
 
-=pkg Dist::Zilla::PluginBundle::RJBS 0.093200 newest available
+=pkg Dist::Zilla::PluginBundle::RJBS 1.004 newest available
 
 =pkg Module::CoreList 2.34 has info on 5.13.1
 
-=pkg Perl::Critic 1.080
-
-=pkg Perl::Critic::Lax 0.007
-
 =pkg Perl::Tidy 20071205 supports 5.10
 
-=pkg Pod::Weaver 3.093130 latest available
+=pkg Pod::Weaver 3.101631 it understands PODNAME comments
 
 
 
 =pkgroup Application Frameworks
 
-=pkg App::Cmd 0.303 App::Cmd::Simple; compat with Getopt::Long::Descripive 0.081
+=pkg App::Cmd 0.308 it has App::Cmd::Setup bugfixes
 
 App::Cmd also gets us Getopt::Long::Descriptive.
 
@@ -61,9 +54,9 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkgroup Email-Handling Libraries
 
-=pkg Email::Filter 1.02 
+=pkg Email::Filter 1.02 I still use it, for lack of something better
 
-=pkg Email::MIME 1.900 merged in Creator and Modifier modules
+=pkg Email::MIME 1.905 merged in Creator and Modifier modules; bug fixes
 
 =pkg Email::Sender
 
@@ -81,21 +74,19 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkg DateTime 0.51 provides CLDR support with fewest known bugs
 
-=pkg Exception::Class 1.23 provides ->caught
-
 =pkg HTML::Element 3.22 has proper XML escaping
 
 =pkg JSON 2.12 fixes unicode handling from ASCII JSON
 
 =pkg List::MoreUtils 0.21 includes part()
 
-=pkg Log::Dispatchouli
+=pkg Log::Dispatchouli 2.000 it has Log::Dispatchouli::Global
 
 =pkg Mixin::ExtraFields 0.005 allows undef for id
 
 =pkg Mixin::ExtraFields::Param 0.011
 
-=pkg Moose 0.94 has the big attribute overhaul
+=pkg Moose 1.19 it has assert_coerce
 
 =pkg Moose::Autobox 0.10 has "each" iterators
 
@@ -107,9 +98,15 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkg Scalar::Util 1.18
 
-=pkg Sub::Exporter 0.979 has the INIT collector
+=pkg Sub::Exporter 0.980 INIT collector; bug fixes
 
 =pkg Text::Markdown 1.0.24 has trust_list_start
+
+=pkg Throwable 0.102080 StackTrace::Auto factored out
+
+=pkg Throwable::X
+
+=pkg Try::Tiny 0.007 exception passed to C<finally>
 
 =cut
 
