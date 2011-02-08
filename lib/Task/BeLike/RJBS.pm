@@ -66,6 +66,8 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkgroup Other Libraries I Use
 
+=pkg Carp::Always
+
 =pkg Config::INI 0.011
 
 =pkg DBD::SQLite
