@@ -98,9 +98,13 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkg Params::Util 0.38 has fixes to _IDENTIFIER and _CLASS
 
+=pkg Plack
+
 =pkg Scalar::Util 1.18
 
 =pkg Sub::Exporter 0.980 INIT collector; bug fixes
+
+=pkg Term::ReadLine::Gnu 1 improves the debugger
 
 =pkg Text::Markdown 1.0.24 has trust_list_start
 
