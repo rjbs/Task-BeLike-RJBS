@@ -76,6 +76,8 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkg DateTime 0.51 provides CLDR support with fewest known bugs
 
+=pkg Devel::NYTProf
+
 =pkg HTML::Element 3.22 has proper XML escaping
 
 =pkg JSON 2.12 fixes unicode handling from ASCII JSON
