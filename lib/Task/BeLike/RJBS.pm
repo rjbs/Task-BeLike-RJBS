@@ -9,7 +9,7 @@ package Task::BeLike::RJBS;
 
 App::Ack also gets us File::Next!
 
-=pkg App::Nopaste 0.21 Gist support via Gist API
+=pkg App::Nopaste 0.28 Gist support via Gist API
 
 =pkg App::Whiff
 
@@ -117,6 +117,20 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 =pkg Throwable::X
 
 =pkg Try::Tiny 0.007 exception passed to C<finally>
+
+
+
+=pkgroup Sanity-Check
+
+These are just here to make sure other things work properly.
+
+=pkg Mozilla::CA
+
+=pkg Crypt::SSLeay
+
+=pkg IO::Socket::SSL
+
+=pkg Config::GitLike
 
 =cut
 
