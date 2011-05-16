@@ -2,6 +2,8 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+20110516.000 2011-05-16 16:53:43 America/New_York
+
               require LWP::Protocol::https to make sure I can use LWP on SSL
 
 20110324.000 2011-03-24 11:01:14 America/New_York
