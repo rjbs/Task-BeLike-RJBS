@@ -2,6 +2,8 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+              require LWP::Protocol::https to make sure I can use LWP on SSL
+
 20110324.000 2011-03-24 11:01:14 America/New_York
               improve behavior of App::Nopaste by adding its optional prereqs
 

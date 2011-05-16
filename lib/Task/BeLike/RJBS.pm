@@ -128,6 +128,8 @@ These are just here to make sure other things work properly.
 
 =pkg Crypt::SSLeay
 
+=pkg LWP::Protocol::https
+
 =pkg IO::Socket::SSL
 
 =pkg Config::GitLike
