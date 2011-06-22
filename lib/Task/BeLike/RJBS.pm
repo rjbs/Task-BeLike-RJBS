@@ -16,7 +16,10 @@ App::Ack also gets us File::Next!
 App::Whiff provides C<whiff>, which replaces C<which>, because C<which> is
 stupid.
 
-=pkg App::Uni for the "uni" command to find unicode glyphs
+=pkg App::Uni
+
+This gets us the "uni" command, which lets you run "uni snowman" to copy and
+paste the character and look funny on IRC.
 
 
 
@@ -32,6 +35,8 @@ stupid.
 
 =pkg Module::Which
 
+I use F<which_pm> to find the version and location of installed modules, even
+if two versions are installed in different parts of C<@INC>.
 
 
 =pkgroup Tools for Building CPAN Distributions
