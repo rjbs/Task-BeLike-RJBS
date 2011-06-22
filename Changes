@@ -3,6 +3,8 @@ Revision history for {{$dist->name}}
 {{$NEXT}}
               add Module::Which, for which_pm, which I use a lot
 
+              add App::Uni, for uni, which I also use a lot
+
 20110516.000 2011-05-16 16:53:43 America/New_York
 
               require LWP::Protocol::https to make sure I can use LWP on SSL

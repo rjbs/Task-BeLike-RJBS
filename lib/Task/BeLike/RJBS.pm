@@ -16,6 +16,8 @@ App::Ack also gets us File::Next!
 App::Whiff provides C<whiff>, which replaces C<which>, because C<which> is
 stupid.
 
+=pkg App::Uni for the "uni" command to find unicode glyphs
+
 
 
 =pkgroup Tools for Working with the CPAN
