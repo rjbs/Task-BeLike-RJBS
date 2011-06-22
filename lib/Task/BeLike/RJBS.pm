@@ -28,6 +28,8 @@ stupid.
 
 =pkg CPAN::Mini 0.563
 
+=pkg Module::Which
+
 
 
 =pkgroup Tools for Building CPAN Distributions
