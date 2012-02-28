@@ -21,6 +21,10 @@ stupid.
 This gets us the "uni" command, which lets you run "uni snowman" to copy and
 paste the character and look funny on IRC.
 
+=pkg Unicode::Tussle
+
+This is a whole bunch of extra utilities for poking through Unicode data.  It's
+all cool stuff.
 
 
 =pkgroup Tools for Working with the CPAN

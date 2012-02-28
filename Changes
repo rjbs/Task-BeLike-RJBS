@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+              add Unicode::Tussle, because it's cool
 
 20110621.000 2011-06-21 22:16:40 America/New_York
               add Module::Which, for which_pm, which I use a lot
