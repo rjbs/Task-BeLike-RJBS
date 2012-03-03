@@ -97,7 +97,7 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkg JSON 2.12 fixes unicode handling from ASCII JSON
 
-=pkg List::MoreUtils 0.21 includes part()
+=pkg List::AllUtils
 
 =pkg Log::Dispatchouli 2.000 it has Log::Dispatchouli::Global
 
