@@ -3,6 +3,8 @@ Revision history for {{$dist->name}}
 {{$NEXT}}
               add Unicode::Tussle, because it's cool
 
+              add MooseX::StrictConstructor; please use it!
+
               switch from List::MoreUtils to List::AllUtils
 
 20110621.000 2011-06-21 22:16:40 America/New_York

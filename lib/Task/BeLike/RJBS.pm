@@ -109,6 +109,10 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkg Moose::Autobox 0.10 has "each" iterators
 
+=pkg MooseX::StrictConstructor
+
+All constructors must be strict!
+
 =pkg namespace::autoclean
 
 =pkg PPI 1.212 fixes parsing of package names with leading-digit parts
