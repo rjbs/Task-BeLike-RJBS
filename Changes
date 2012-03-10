@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+20120310.000 2012-03-10 14:04:11 America/New_York
               add Unicode::Tussle, because it's cool
 
               add MooseX::StrictConstructor; please use it!
