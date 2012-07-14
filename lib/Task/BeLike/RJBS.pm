@@ -29,7 +29,7 @@ all cool stuff.
 
 =pkgroup Tools for Working with the CPAN
 
-=pkg perl 5.12.0
+=pkg perl 5.14.0 it has package NAME BLOCK
 
 =pkg App::cpanminus 1.1002 it has --auto-cleanup
 
