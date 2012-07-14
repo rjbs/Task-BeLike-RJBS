@@ -47,7 +47,7 @@ if two versions are installed in different parts of C<@INC>.
 
 =pkg Dist::Zilla 4 newest available
 
-=pkg Dist::Zilla::PluginBundle::RJBS 1.004 newest available
+=pkg Dist::Zilla::PluginBundle::RJBS 1.012 newest available
 
 =pkg Module::CoreList 2.34 has info on 5.13.1
 
