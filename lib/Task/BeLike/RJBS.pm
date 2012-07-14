@@ -49,7 +49,7 @@ if two versions are installed in different parts of C<@INC>.
 
 =pkg Dist::Zilla::PluginBundle::RJBS 1.012 newest available
 
-=pkg Module::CoreList 2.34 has info on 5.13.1
+=pkg Module::CoreList 2.68 newest available
 
 =pkg Perl::Tidy 20071205 supports 5.10
 
