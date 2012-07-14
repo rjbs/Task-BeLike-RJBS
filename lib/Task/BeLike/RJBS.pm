@@ -9,7 +9,7 @@ package Task::BeLike::RJBS;
 
 App::Ack also gets us File::Next!
 
-=pkg App::Nopaste 0.28 Gist support via Gist API
+=pkg App::Nopaste 0.34 Gist support via Gist API v3
 
 =pkg App::Whiff
 
