@@ -101,10 +101,6 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkg Log::Dispatchouli 2.000 it has Log::Dispatchouli::Global
 
-=pkg Mixin::ExtraFields 0.005 allows undef for id
-
-=pkg Mixin::ExtraFields::Param 0.011
-
 =pkg Moose 1.19 it has assert_coerce
 
 =pkg Moose::Autobox 0.10 has "each" iterators
