@@ -1,7 +1,16 @@
-use 5.12.0;
+use 5.14.0;
 use warnings;
 package Task::BeLike::RJBS;
 # ABSTRACT: be more like RJBS -- use the modules he likes!
+
+=pkgroup Perl for Perl's Sake
+
+=pkg perl 5.014 gotta have my "package NAME BLOCK"
+
+=pkg App::grindperl
+
+=pkg App::perlbrew
+
 
 =pkgroup Useful Command-Line Tools
 
