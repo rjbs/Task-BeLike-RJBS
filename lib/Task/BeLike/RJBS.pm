@@ -51,6 +51,10 @@ all cool stuff.
 I use F<which_pm> to find the version and location of installed modules, even
 if two versions are installed in different parts of C<@INC>.
 
+=pkg Pod::Cpandoc
+
+It's like C<perldoc>, but for stuff you haven't installed (yet?).
+
 
 =pkgroup Tools for Building CPAN Distributions
 
