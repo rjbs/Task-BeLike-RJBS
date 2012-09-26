@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+20120926.000 2012-09-26 12:09:52 America/New_York
               add App::grindperl, App::perlbrew, perl 5.14.0
 
               add Pod::Cpandoc
