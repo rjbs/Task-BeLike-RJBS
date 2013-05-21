@@ -30,6 +30,10 @@ stupid.
 This gets us the "uni" command, which lets you run "uni snowman" to copy and
 paste the character and look funny on IRC.
 
+=pkg File::Rename
+
+This lets me rename a bunch of files by apply a C<s///> expression, or more.
+
 =pkg Unicode::Tussle
 
 This is a whole bunch of extra utilities for poking through Unicode data.  It's
