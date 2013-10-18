@@ -16,8 +16,6 @@ package Task::BeLike::RJBS;
 
 =pkg App::Ack 1.82 a working --pager
 
-App::Ack also gets us File::Next!
-
 =pkg App::Nopaste 0.34 Gist support via Gist API v3
 
 =pkg App::Whiff
