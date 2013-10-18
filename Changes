@@ -2,7 +2,7 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
-20131018.000 2013-10-18 11:32:46 America/New_York
+20131018.001 2013-10-18 11:40:55 America/New_York
               update bugtracker and repo
 
               remove Moose::Autobox
