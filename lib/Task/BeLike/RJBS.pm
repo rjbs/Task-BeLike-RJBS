@@ -118,8 +118,6 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkg Moose 1.19 it has assert_coerce
 
-=pkg Moose::Autobox 0.10 has "each" iterators
-
 =pkg MooseX::StrictConstructor
 
 All constructors must be strict!
