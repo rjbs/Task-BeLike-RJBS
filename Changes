@@ -2,6 +2,11 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+20131116.000 2013-11-16 17:09:04 America/New_York
+              stop trying to install perlbrew
+
+              require dzil 5!
+
 20131018.001 2013-10-18 11:40:55 America/New_York
               update bugtracker and repo
 
