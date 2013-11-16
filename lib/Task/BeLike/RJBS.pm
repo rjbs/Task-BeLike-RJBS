@@ -9,8 +9,6 @@ package Task::BeLike::RJBS;
 
 =pkg App::grindperl
 
-=pkg App::perlbrew
-
 
 =pkgroup Useful Command-Line Tools
 
