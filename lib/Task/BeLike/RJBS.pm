@@ -58,7 +58,7 @@ It's like C<perldoc>, but for stuff you haven't installed (yet?).
 
 =pkgroup Tools for Building CPAN Distributions
 
-=pkg Dist::Zilla 4 newest available
+=pkg Dist::Zilla 5 encoding!
 
 =pkg Dist::Zilla::PluginBundle::RJBS 1.012 newest available
 
@@ -66,7 +66,7 @@ It's like C<perldoc>, but for stuff you haven't installed (yet?).
 
 =pkg Perl::Tidy 20071205 supports 5.10
 
-=pkg Pod::Weaver 3.101631 it understands PODNAME comments
+=pkg Pod::Weaver 4 encoding!
 
 
 
