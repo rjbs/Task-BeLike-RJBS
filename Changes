@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+20150423.000 2015-04-23 09:25:13-04:00 America/New_York
               add the rjbs.pm module, to quickly turn on all kinds of nonsense
 
 20131116.000 2013-11-16 17:09:04 America/New_York
