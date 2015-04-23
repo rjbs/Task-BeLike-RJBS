@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+              add the rjbs.pm module, to quickly turn on all kinds of nonsense
 
 20131116.000 2013-11-16 17:09:04 America/New_York
               stop trying to install perlbrew

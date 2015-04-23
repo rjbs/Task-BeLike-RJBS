@@ -60,7 +60,7 @@ It's like C<perldoc>, but for stuff you haven't installed (yet?).
 
 =pkg Dist::Zilla 5 encoding!
 
-=pkg Dist::Zilla::PluginBundle::RJBS 1.012 newest available
+=pkg Dist::Zilla::PluginBundle::RJBS 5 newest available
 
 =pkg Module::CoreList 2.68 newest available
 
