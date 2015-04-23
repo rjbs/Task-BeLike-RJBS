@@ -2,6 +2,10 @@ Revision history for {{$dist->name}}
 
 {{$NEXT}}
 
+20150423.001 2015-04-23 13:20:43-04:00 America/New_York
+              allow rjbs.pm to work on 5.20, with fewer features; this is going
+              to be a hard minimum
+
 20150423.000 2015-04-23 09:25:13-04:00 America/New_York
               add the rjbs.pm module, to quickly turn on all kinds of nonsense
 
