@@ -62,8 +62,6 @@ It's like C<perldoc>, but for stuff you haven't installed (yet?).
 
 =pkg Dist::Zilla::PluginBundle::RJBS 5 newest available
 
-=pkg Module::CoreList 2.68 newest available
-
 =pkg Perl::Tidy 20071205 supports 5.10
 
 =pkg Pod::Weaver 4 encoding!
