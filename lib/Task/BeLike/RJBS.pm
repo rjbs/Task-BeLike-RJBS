@@ -148,8 +148,6 @@ These are just here to make sure other things work properly.
 
 =pkg Mozilla::CA
 
-=pkg Crypt::SSLeay
-
 =pkg LWP::Protocol::https
 
 =pkg IO::Socket::SSL
