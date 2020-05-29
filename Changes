@@ -1,6 +1,7 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+              JSON::MaybeXS, not JSON
 
 20200521.000 2020-05-21 09:16:14-04:00 America/New_York
               drop Crypt::SSLeay -- that'd be nice if it pans out!
