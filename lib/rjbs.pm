@@ -23,7 +23,8 @@ sub import {
   feature->import(':5.20');
   experimental->import(qw( signatures postderef lexical_subs ));
 
-  $] >= 5.021010 && experimental->import(qw( bitwise refaliasing ));
+  $] >= 5.022000 && experimental->import(qw( bitwise refaliasing ));
+  $] >= 5.026000 && experimental->import(qw( declared_refs ));
 }
 
 1;
