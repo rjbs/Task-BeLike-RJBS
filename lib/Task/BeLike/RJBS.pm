@@ -1,11 +1,11 @@
-use 5.14.0;
+use 5.20.0;
 use warnings;
 package Task::BeLike::RJBS;
 # ABSTRACT: be more like RJBS -- use the modules he likes!
 
 =pkgroup Perl for Perl's Sake
 
-=pkg perl 5.014 gotta have my "package NAME BLOCK"
+=pkg perl 5.020 postfix dereference and much more
 
 =pkg App::grindperl
 
@@ -29,6 +29,8 @@ paste the character and look funny on IRC.
 =pkg File::Rename
 
 This lets me rename a bunch of files by apply a C<s///> expression, or more.
+
+=pkg Net::Dict
 
 =pkg Unicode::Tussle
 
@@ -55,6 +57,8 @@ if two versions are installed in different parts of C<@INC>.
 
 It's like C<perldoc>, but for stuff you haven't installed (yet?).
 
+=pkg Test2::Harness
+
 
 =pkgroup Tools for Building CPAN Distributions
 
@@ -78,8 +82,6 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkgroup Email-Handling Libraries
 
-=pkg Email::Filter 1.02 I still use it, for lack of something better
-
 =pkg Email::MIME 1.905 merged in Creator and Modifier modules; bug fixes
 
 =pkg Email::Sender
@@ -90,13 +92,25 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkgroup Other Libraries I Use
 
+=pkg Authen::OATH
+
+I need this for TOTP.
+
+=pkg Authen::SASL
+
 =pkg Carp::Always
 
 =pkg Config::INI 0.011
 
+=pkg Convert::Base32
+
+I need this for TOTP.
+
 =pkg DBD::SQLite
 
 =pkg Data::GUID 0.044 requires a new enough Data::UUID to work around Debian
+
+=pkg Data::Printer
 
 =pkg DateTime 0.51 provides CLDR support with fewest known bugs
 
@@ -105,6 +119,8 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 =pkg Devel::NYTProf
 
 =pkg HTML::Element 3.22 has proper XML escaping
+
+=pkg IO::Async
 
 =pkg JSON::MaybeXS
 
@@ -119,6 +135,8 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 All constructors must be strict!
 
 =pkg namespace::autoclean
+
+=pkg Net::Async::HTTP
 
 =pkg PPI 1.212 fixes parsing of package names with leading-digit parts
 
@@ -137,6 +155,12 @@ All constructors must be strict!
 =pkg Throwable 0.102080 StackTrace::Auto factored out
 
 =pkg Throwable::X
+
+=pkg Time::Duration
+
+=pkg Time::Duration::Parse
+
+=pkg TOML::Parser
 
 =pkg Try::Tiny 0.007 exception passed to C<finally>
 
