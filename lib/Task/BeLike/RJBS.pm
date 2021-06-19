@@ -92,6 +92,10 @@ App::Cmd also gets us Getopt::Long::Descriptive.
 
 =pkgroup Other Libraries I Use
 
+=pkg Archive::Tar::Wrapper
+
+Largely to suppress "it could be faster!" warnings from Dist::Zilla.
+
 =pkg Authen::OATH
 
 I need this for TOTP.
