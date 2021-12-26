@@ -48,6 +48,8 @@ all cool stuff.
 
 =pkg CPAN::Mini 0.563
 
+=pkg Module::CPANfile
+
 =pkg Module::Which
 
 I use F<which_pm> to find the version and location of installed modules, even
