@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+            - add Module::CPANfile -- I keep forgetting how to get
+              cpanfile-dump, which I always want
 
 20210619.000 2021-06-19 08:54:23-04:00 America/New_York
             - update list based on things I keep installing
