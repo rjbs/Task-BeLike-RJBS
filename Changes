@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+20211226.000 2021-12-26 10:02:21-05:00 America/New_York
             - add Module::CPANfile -- I keep forgetting how to get
               cpanfile-dump, which I always want
 
