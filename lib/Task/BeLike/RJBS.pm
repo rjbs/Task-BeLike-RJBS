@@ -104,8 +104,6 @@ I need this for TOTP.
 
 =pkg Authen::SASL
 
-=pkg Carp::Always
-
 =pkg Config::INI 0.011
 
 =pkg Convert::Base32
@@ -119,6 +117,8 @@ I need this for TOTP.
 =pkg Data::Printer
 
 =pkg DateTime 0.51 provides CLDR support with fewest known bugs
+
+=pkg Devel::Confess
 
 =pkg Devel::Cover
 
